@@ -45,6 +45,3 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
-
-[tool.setuptools]
-packages = ["anker_solix_api"]
