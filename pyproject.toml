@@ -38,3 +38,6 @@ python-dotenv = ">=1.2.1"
 [tool.poetry]
 package-mode = false
 requires-poetry = ">=2.1"
+
+[tool.setuptools]
+packages = ["anker_solix_api"]
