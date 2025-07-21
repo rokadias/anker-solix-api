@@ -9,7 +9,7 @@ from pathlib import Path
 import select
 import sys
 
-from api.apitypes import (  # pylint: disable=no-name-in-module
+from .api.apitypes import (  # pylint: disable=no-name-in-modul
     Color,
     SolarbankRatePlan,
     SolarbankUsageMode,
