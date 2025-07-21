@@ -20,7 +20,7 @@ CONSOLE: logging.Logger = common.CONSOLE
 TESTAUTHENTICATE = False
 TESTAPIMETHODS = False
 TESTAPIENDPOINTS = False
-TESTAPIFROMJSON = True
+TESTAPIFROMJSON = False
 JSONFOLDER = "SB2_SM_ManMode_Schedule"
 
 
@@ -228,6 +228,7 @@ async def main() -> None:
 
     CONSOLE.info("Testing Solix API:")
     async with ClientSession() as websession:
+        
         myapi = api.AnkerSolixApi(
             common.user(),
             common.password(),
